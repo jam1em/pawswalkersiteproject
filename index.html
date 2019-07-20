@@ -1,76 +1,159 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>TinDog</title>
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Paws Walker</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
 
-<body>
+  <body>
 
-  <section class="colored-section" id="title">
+    <section class="green-section" id="title">
 
-    <div class="container-fluid">
+      <div class="container-fluid">
 
-      <!-- Nav Bar -->
+        <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <a class="navbar-brand" href="">tindog</a>
+          <a class="navbar-brand" href="">tindog</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="navbarToggler1">
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Download</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">About us</a>
+              </li>
 
-        </div>
-      </nav>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
 
 
-      <!-- Title -->
+        <!-- Title -->
 
-      <div class="row">
+        <div class="row">
 
-        <div class="col-lg-6">
-          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-        </div>
+          <div class="col-lg-6">
+            <h1 class="big-heading">Book trusted Dog walkers near you for an afforable price.</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+          </div>
 
-        <div class="col-lg-6">
-          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+          <div class="col-lg-6">
+            <img class="title-image" src="images/dogleash1.png" alt="mobile-mockup">
+          </div>
+
         </div>
 
       </div>
 
-    </div>
+    </section>
+    <!-- Features -->
 
-  </section>
-</html>
+      <section class="white-section" id="features">
+
+        <div class="container-fluid">
+
+          <div class="row">
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-check-circle fa-4x"></i>
+              <h3 class="feature-title">Easy to use.</h3>
+              <p>So easy to use, kid friendlyt.</p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-bullseye fa-4x"></i>
+              <h3 class="feature-title">Trusted walker</h3>
+              <p>Best trusted dog walkers who'll treat your pet like family.</p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-heart fa-4x"></i>
+              <h3 class="feature-title">Guaranteed Safety.</h3>
+              <p>We perform comprehensive background screening so your dog & home are in safe hands.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- Testimonials -->
+
+        <section class="green-section" id="testimonials">
+
+          <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <h2 class="testimonial-text">Paws Walker does an amazing job looking after my Dog Ruffy when I am away.</h2>
+                <img class="testimonial-image" src="person1.png" alt="woman1-testimonial">
+                <!-- giving create to: Photo by Sam Manns on Unsplash -->
+                <em>Sandie, New York</em>
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="testimonial-text">Whenever I am stuck late at work, I can count on Paws Walker to care for Buddy.  I know I can rely on a trusted walker.</h2>
+                <img class="testimonial-image" src="person2.png" alt="Man-testimonial">
+                <!-- giving create to: Photo by Sam Manns on Unsplash -->
+                <em>Jason, Los Angeles</em>
+
+              </div>
+              <div class="carousel-item container-fluid">
+                <h2 class="testimonial-text">I used other services, and no were as Friendly as the Paws Walker team! I can rely on them when I can’t get to my dog on time for a walk..</h2>
+                <img class="testimonial-image" src="person3.png" alt="woman2-testimonial">
+                <!-- giving create to: Photo by Anthony Tran on Unsplash -->
+                <em>Lisa, Boston</em>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+        </section>
+        <!-- Press -->
+
+        <section class="colored-section" id="press">
+          <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+          <img class="press-logo" src="images/DogsterNew.png" alt="DogsterNew-logo">
+          <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+          <img class="press-logo" src="images/barklogo.png" alt="bark-logo">
+
+        </section>
+
+
+    </body>
+  </html>
